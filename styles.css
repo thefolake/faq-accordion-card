@@ -100,13 +100,17 @@ input:checked {
         display: grid;
         grid-template-rows: 1fr 1fr;
         height: 75%;
+        position: relative;
     }
 
     .img-container {
-        background: url("images/illustration-woman-online-mobile.svg") center no-repeat, url("images/bg-pattern-desktop.svg") no-repeat 52% 93%;
+        background: url("images/illustration-woman-online-mobile.svg") center no-repeat, url("images/bg-pattern-desktop.svg") no-repeat 52% 50%;
         background-size: 92%,92%;
+        height: 75%;
+        left: 4em;
         margin: 0 auto;
-        top: -52%;
+        top: -18rem;
+        position: absolute;
         width: 75%;
     }
 
@@ -119,7 +123,23 @@ input:checked {
     }
 
     .faq-container {
-        padding: 0 58px 58px 58px;
+        position: relative;
+        top: 6em;
         width: 310px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .faq-container {
+        padding: 20px;
+        width: 300px;
+    }
+
+   .accordion {
+       margin: 0 10px;
+   }
+
+   .img-container {
+       left: 3rem;
+   }
 }
