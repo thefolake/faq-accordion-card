@@ -129,7 +129,7 @@ input:checked {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .faq-container {
         padding: 20px;
         width: 300px;
