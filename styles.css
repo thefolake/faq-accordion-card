@@ -43,7 +43,6 @@ body {
 .faq-container {
     max-width: 430px;
     padding: 58px;
-    width: 430px;
 }
 
 h1 {
@@ -100,6 +99,7 @@ input:checked {
         display: grid;
         grid-template-rows: 1fr 1fr;
         height: 75%;
+        margin-top: 3em;
         position: relative;
     }
 
